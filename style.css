@@ -1,0 +1,150 @@
+body{
+    background-color: #3c4451;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+label{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color:antiquewhite;
+}
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 24px;
+}
+nav{
+    height: 80px;
+    background-color:#37d1cb;
+    width: 100%;
+}
+img{
+    height: 600px;
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#stat{
+    height: 400px;
+    width: 1200px;
+    background-color:dimgrey;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 180px;
+    box-shadow: 5px 10px 20px;
+}
+#credit{
+    height: 200px;
+    width: 200px;
+    background-color:lightgreen;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px ;
+}
+#debit{
+    height: 200px;
+    width: 200px;
+    background-color:crimson;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+}
+h1{
+    margin-left: 300px;
+    text-transform: uppercase;
+}
+h2{
+    margin-top: 50px;
+}
+#add{
+    width:250px;
+    height: 250px;
+    border-radius: 130px;
+    margin-left: 380px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #37d1cb;
+}
+#history{
+    width:250px;
+    height: 250px;
+    border-radius: 130px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #37d1cb;
+}
+#clear{
+    width:300px;
+    height: 150px;
+    margin-left: 350px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #37d1cb;
+}
+#more{
+    width:300px;
+    height: 150px;
+    margin-left: 170px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #37d1cb;
+}
+footer{
+    background-color: white;
+    bottom: 0;
+    width: 100vw;
+    font-size: 16px;
+    height: 300px;
+    margin-top: 200px;
+}
+#footername{
+    margin-left: 600px;
+    padding-top: 50px;
+}
+#right{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px; 
+    border-radius: 300px; 
+    margin-left: 230px;
+    margin-top: 50px;
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }
+  .fa-youtube {  
+    background: #bb0000;
+    color: white; 
+  }  
+  .fa-linkedin {  
+    background: #125688;
+    color: blue;  
+  } 

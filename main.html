@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <script>
+        function fun()
+        {
+            var imgs=["secure.png","img2.png","img3.png","img4.png","secure.avif"]
+            var num=Math.floor(Math.random() * 10)%4;
+            var img=document.getElementById("image")
+            img.src=imgs[num]
+        }
+        function changeImage(){
+            setInterval(fun,1500);
+        }
+    </script>
+</head>
+<body onload="changeImage()">
+    <nav>
+        <label>PocketSense🧠</label>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#home">CONTACT</a></li>
+            <li><a href="#home">FEEDBACK</a></li>
+        </ul>
+    </nav>
+    <div id="stat">
+        <h1>Last 30 Days Statistics</h1>
+        <table>
+            <tr>
+                <th>
+                    <div id="credit">
+                        <h2>CREDIT</h2>
+                        <h2> ₹1000 </h2>
+                    </div>
+                </th>
+                <th>
+                    <div id="debit">
+                        <h2>DEBIT</h2>
+                        <h2> ₹1000 </h2>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <button id="add">ADD TRANSACTION</button>
+    <button id="history">HISTORY</button>
+    <button id="clear">CLEAR</button>
+    <button id="more">MORE</button>
+    <footer>
+        <h1 id="footername">PocketSense</h1>
+        <h2 id="right">©  2023 Company - All Rights Reserved.</h2>
+        <a href="#" class="fa fa-facebook"></a>  
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-linkedin"></a>  
+    </footer>
+</body>
+</html>

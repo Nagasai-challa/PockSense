@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #634da9;
+        }
+        form{
+            height: 700px;
+            width: 400px;
+            background-color: white;
+            margin-left: 500px;
+            padding: 20px;
+            margin-top: 100px;
+            border-radius: 15px;
+            background-color: #bf4b8e;
+            box-shadow: 5px 10px 15px;
+        }
+        h1{
+            margin-left: 120px;
+        }
+        input{
+            height: 45px;
+            width: 350px;
+            margin-top: 40px;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+        #pass{
+            margin-top: 10px;
+        }
+        button{
+            height: 50px;
+            width: 360px;
+            margin-left: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            background-color: lightseagreen;
+        }
+        h2{
+            margin-left: 180px;
+            margin-top: 60px;
+        }
+        #email{
+            margin-top: 15px;
+        }
+    </style>
+    <script>
+        function login(){
+            location.href="main.html"
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="email" placeholder="Email"/><br/>
+        <input id="pass" type="password" placeholder="Password"/><br/>
+        <button onclick="login()">LOGIN</button>
+        <h2>OR</h2>
+        <input type="text" placeholder="Full Name"/><br/>
+        <input id="email" type="email" placeholder="Email"/><br/>
+        <input id="pass" type="password" placeholder="Password"/><br/>
+        <input  id="pass" type="password" placeholder="Re-enter Password"/><br/>
+        <button id="reg">REGISTER</button>
+    </form>
+</body>
+</html>
